@@ -1,0 +1,43 @@
+body{
+    background-color: #3fb399;
+}
+.container{
+    width: 320px;
+    background-color: white;
+    margin: 120px auto;
+}
+table{
+    border: 10px solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+td{
+    width: 25%;
+}
+button{
+    cursor: pointer;
+    color: whitesmoke;
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: teal;
+}
+button:hover{
+    color: teal;
+    font-weight: bolder;
+    background-color: white;
+}
+#input-label{
+    color: orange;
+    height: 120px;
+    font-size: 40px;
+    font-weight: bolder;
+    vertical-align: bottom;
+    text-align: end;
+    padding-right: 16px;
+    background-color: gainsboro;
+    word-break: break-all;
+}
